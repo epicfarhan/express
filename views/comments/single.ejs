@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=username%></title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="comment_body">
+      <h1><%=comment%></h1>
+      <p>by <%=username%></p>
+      <div class="comment_btn">
+        <a href="/comments">back</a>
+        <form action="/comments/<%=id%>?_method=DELETE" method="post">
+          <button>delete</button>
+        </form>
+        <a href="/comments/<%=id%>/edit">Edit</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit comment</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Edit <%=username%>'s comment.</h1>
+    <form method="POST" action="/comments/<%=id%>?_method=PATCH">
+      <textarea name="comment" id="" cols="30" rows="10">
+      <%=comment%>
+      </textarea>
+      <button>send</button>
+    </form>
+  </body>
+</html>
