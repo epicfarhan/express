@@ -1,11 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 body {
-  background-color: black;
-  color: white;
-  font-family: monospace;
+  background-color: aliceblue;
+  color: black;
+  font-family: "Poppins", serif;
   padding-bottom: 100px;
+}
+
+.hero-section-header {
+  font-size: 50px;
+  line-height: 56px;
+  margin-left: 10px;
+}
+.hero-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.hero-product-section {
+  padding-left: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-right: 60px;
+}
+
+.hero-product {
+  background-color: blue;
+  margin-bottom: 30px;
+  height: 380px;
+  width: 380px;
+}
+
+.btn {
+  background-color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.details-header {
+  text-align: center;
+  font-size: 40px;
+}
+
+.details-price {
+  text-align: center;
 }
